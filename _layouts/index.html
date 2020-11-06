@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+    <meta name="title" content="{{ site.title }}">
+
+    {% include meta.html %}
+
+  </head>
+  <body>
+    <div class="wrapper">
+
+      {% include navbar.html %}
+
+      <div id="main" class="main">
+        <div class="first home-3"><!-- Hero Section-->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="hero-content wow fadeIn">
+                  <div class="hero-content-inner">
+                    <h4>Materials printed on highly abrasive premium Nylon infused with Carbon Fiber</h4>
+                    <h1>3D Printed Motorcycle Parts</h1>
+                    <p>
+                    Custom 3D printed motorcycle parts using premium high quality filament infused with carbon fiber.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="hero-img">
+                  <img class="nobackground img-fluid" src="assets/images/leverguard.png">
+                </div>
+              </div>
+              <!--
+              <div class="col-md-7">
+                <div class="hero-img loop-video">
+                  <video class="embed-responsive drone-video" autoplay loop muted>
+                    <source src="assets/video/sbends.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+              -->
+            </div>
+
+          <!--
+            <div class="questions partners flex-out wow fadeIn">
+              <p>Check out our partners below</p>
+              <a href="https://www.carbonclass.ca/" target="_blank"><img class="partner-img" src="/assets/images/partners/cc.png"/></a>
+              <a href="https://superbikedepot.com/track-day-tire-preorder" target="_blank"><img class="partner-img" src="/assets/images/partners/superbikedepot.png"/></a>
+            </div>
+          -->
+
+            <div class="questions flex-out align-center wow fadeIn">
+              <p>
+              Any questions? Email us at <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+              </p>
+            </div>
+          </div>
+
+        </div><!-- Hero End -->
+
+        <div id="team" class="team">
+          <div class="container-s">
+            <div class="flex-intro align-center wow fadeIn">
+              <h2>Custom created motorcycle parts</h2>
+              <p>We design and create all parts in-house and use only the best premium 3D Printer Filament</p>
+            </div>
+            <div class="row">
+              <!-- team member -->
+              <div class="col-sm-4">
+                <div class="team-image text-center"><img src="assets/images/lever_small.png" class="rounded-circle z-depth-1 img-fluid" alt="Sample avatar"></div>
+                <div class="team-text">
+                  <h3>Lever Guards</h3>
+                  <p>Modular lever guards with custom engraving</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="team-image text-center"><img src="assets/images/real_button.png" class="rounded-circle z-depth-1 img-fluid" alt="Sample avatar"></div>
+                <div class="team-text">
+                  <h3>Switch Pods</h3>
+                  <p>MotoGP style touch and feel made with premium PETG material and waterproof (IP67) buttons rated for 200,000+ presses.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="team-image text-center"><img src="assets/images/8button_small.png" class="rounded-circle z-depth-1 img-fluid" alt="Sample avatar"></div>
+                <div class="team-text">
+                  <h3>Custom Parts</h3>
+                  <p>We also make an assortment of other custom parts. Send us an email and get in touch with us!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- Call to Action Section -->
+
+        <div id="date" class="home home-3"><!-- Hero Section-->
+          <div class="container">
+            <div class="flex-intro align-center wow fadeIn">
+              <h2>Custom Engraved Lever Guard</h2>
+            </div>
+            <div class="row">
+
+              <div class="col-md-6">
+                <div class="hero-content wow fadeIn">
+                  <div class="hero-content-inner">
+                    <h4>Lever Guards</h4>
+                    <p>
+                    • Created with abrasive resistant material (carbon fiber and ultra high molecular weight polyethylene) this clamp-style brake lever guard will withstand a crash and protect your bike of any unwanted lever pulling.
+                    <br>
+                    • 100% money-back guarantee 
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="hero-img">
+                  <img class="img-fluid" src="assets/images/lever.png">
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+        </div><!-- Hero End -->
+
+      </div>
+
+
+      {% include footer.html %}
+
+    </div> <!-- Main -->
+
+
+    <!-- Jquery and Js Plugins -->
+    <script src="assets/js/jquery-2.1.1.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      $('.navbar-nav>li>a').on('click', function(){
+
+        $('.navbar-collapse').collapse('hide');
+
+      });
+    </script>
+  </body>
+</html>

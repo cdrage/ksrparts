@@ -1,0 +1,15 @@
+title: KSR Parts - 3D Printed Motorcycle Parts
+name: KSR Parts
+email: info@ksr.parts
+description: >- # this means to ignore newlines until "baseurl:"
+  3D Printed Motorcycle parts using carbon fiber nylon
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+instagram: https://www.instagram.com/ksrcanada/
+facebook: https://www.facebook.com/groups/KWSportRacing/
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
