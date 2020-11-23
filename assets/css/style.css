@@ -3657,3 +3657,29 @@ backface-visibility: hidden;
 .nobackground {
   box-shadow: none !important;
 }
+
+.home-alt {
+  background: #fff !important;
+}
+
+.hero-content-inner a {
+  margin-top:1em;
+    font-size: 14px;
+    font-weight: 600;
+    color: #047aed;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.hero-content-inner a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -20%;
+    height: 1px;
+    width: 50px;
+    background: #8798ab;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
