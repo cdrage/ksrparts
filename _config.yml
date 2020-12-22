@@ -9,6 +9,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 instagram: https://www.instagram.com/ksrparts/
 facebook: https://www.facebook.com/ksrparts3d/
 
+order_link: https://forms.gle/sfeAQwJ6EC9BQEiFA
+
 # Build settings
 theme: minima
 plugins:
