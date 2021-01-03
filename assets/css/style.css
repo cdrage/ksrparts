@@ -3585,8 +3585,7 @@ font-family: "Open Sans";
   }
 
 .twitchiframe {
-  min-height:300px
-  position: absolute;
+  min-height: 480px;
   width: 100%;
   height: 100%;
   top: 0;
