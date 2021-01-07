@@ -3592,9 +3592,10 @@ font-family: "Open Sans";
 }
 
 .track {
-  font-weight: 700;
-  font-size:16px;
+  font-weight: 300;
+  font-size:12px;
   padding-bottom:20px;
+  line-height:1.5em;
 }
 
 .tracklink {
@@ -3606,4 +3607,9 @@ font-family: "Open Sans";
 .textlink {
   font-weight:600;
    text-decoration: underline;
+}
+
+.trackrow {
+  padding-bottom:20px;
+  padding-top:20px;
 }

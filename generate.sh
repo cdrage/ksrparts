@@ -12,7 +12,7 @@ for f in assets/images/tracks/*.png; do
   nospace=$( printf "%s\n" "$f" | sed 's/ /%20/g' )
 
   cat >> gallery.html << EOL
-              <div class="col-md-3">
+              <div class="col-md-2">
                 <div class="table-left">
                   <div class="track">$base</div>
                   <img class="bike-fluid" src="$nospace">
@@ -20,9 +20,9 @@ for f in assets/images/tracks/*.png; do
               </div>
 EOL
   i=$((i+1))
-  if (( $i == 5 )); then
+  if (( $i == 7 )); then
     i=1
-    echo '</div><div class="row">' >> gallery.html
+    echo '</div><div class="row trackrow text-center">' >> gallery.html
   fi
 done
 

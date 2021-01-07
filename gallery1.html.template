@@ -75,22 +75,13 @@
 
       <div id="main" class="main">
 
-        <div id="pricing" class="what home-3"><!-- Hero Section-->
+        <div id="pricing" class="first home-3"><!-- Hero Section-->
           <div class="container">
             <div class="flex-intro align-center wow fadeIn">
-              <br>
-              <br>
-              <br>
               <h2>Many happy customers</h2>
               <p>Hundreds of track sculptures have been shipped and hung on walls!</p>
             </div>
             <div class="row">
-
-              <div class="col-md-4">
-                <div class="hero-img">
-                  <img class="img-fluid" src="assets/images/customers/zoltan.jpg" alt="Zoltans wall">
-                </div>
-              </div>
 
               <div class="col-md-8">
                 <div class="hero-img">
@@ -98,19 +89,35 @@
                 </div>
               </div>
 
+              <div class="col-md-4">
+                <div class="hero-img">
+                  <img class="img-fluid" src="assets/images/customers/zoltan.jpg" alt="Zoltans wall">
+                </div>
+              </div>
 
+
+
+            </div>
+            <div class="questions flex-out align-center wow fadeIn">
+              <p>
+              <a href="https://forms.gle/Zmidy3HAFgYoa4Vd9">Start your order here</a>
+              <br>
+              Email us at <a href="mailto:ksrparts3d@gmail.com">ksrparts3d@gmail.com</a>
+              <br>
+              Phone <a href="tel:1-226-476-1199">226-476-1199</a>
+              </p>
             </div>
 
           </div>
         </div><!-- Hero End -->
 
         <!-- Pricing Tables -->
-        <div id="pricing" class="pricing-section text-center">
+        <div id="team" class="team">
           <div class="container">
-            <div class="pricing-intro">
-              <h1>List of Track Layouts</h1>
+            <div class="flex-intro align-center wow fadeIn text-center">
+              <h2>List of Tracks</h2>
               <p>
               Choose from tracks all over the world. Below are what the layouts will look like.
               </p>
             </div>
-            <div class="row">
+            <div class="row trackrow text-center">
