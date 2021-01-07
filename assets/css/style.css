@@ -3590,3 +3590,20 @@ font-family: "Open Sans";
   height: 100%;
   top: 0;
 }
+
+.track {
+  font-weight: 700;
+  font-size:16px;
+  padding-bottom:20px;
+}
+
+.tracklink {
+  font-size:14px;
+  font-weight:700;
+  padding-top:10px;
+}
+
+.textlink {
+  font-weight:600;
+   text-decoration: underline;
+}
