@@ -70,7 +70,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto navbar-right">
-              <li class="nav-item"><a class="nav-link" href="/#bikes">Track Sculptures</a></li>
+              <li class="nav-item"><a class="nav-link" href="/#sculpture">Track Sculptures</a></li>
               <li class="nav-item"><a class="nav-link" href="/#pricing">Pricing</a></li>
               <li class="nav-item"><a class="nav-link" href="/gallery">Gallery</a></li>
               <li class="nav-item"><a class="nav-link" href="https://forms.gle/Zmidy3HAFgYoa4Vd9">Order</a></li>
@@ -120,7 +120,7 @@
         </div><!-- Hero End -->
 
         <!-- Pricing Tables -->
-        <div id="team" class="team">
+        <div id="team" class="what home-3">
           <div class="container">
             <div class="flex-intro align-center wow fadeIn text-center">
               <h2>List of Tracks</h2>
