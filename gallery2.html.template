@@ -10,9 +10,15 @@
             </div>
             <div class="row text-center">
 
-              <div class="col-md-12">
+              <div class="col-md-6">
                 <div class="hero-img">
                   <img class="img-fluid" src="assets/images/customers/ducati.jpg" alt="Ducati">
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="hero-img">
+                  <img class="img-fluid" src="assets/images/customers/r1.jpg" alt="R1">
                 </div>
               </div>
 
