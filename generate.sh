@@ -14,8 +14,8 @@ for f in assets/images/tracks/*.png; do
   cat >> gallery.html << EOL
               <div class="col-md-2">
                 <div class="table-left">
-                  <div class="track">$base</div>
                   <img class="bike-fluid" src="$nospace">
+                  <div class="track">$base</div>
                 </div>
               </div>
 EOL
