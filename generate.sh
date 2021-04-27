@@ -28,7 +28,6 @@ cat templates/header.html.template \
   >> keychains.html
 sed-replace %TITLE% "$KEYCHAINS_TITLE" keychains.html
 
-
 ######################
 # GALLERY GENERATION #
 ######################
