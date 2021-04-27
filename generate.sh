@@ -1,11 +1,43 @@
 #!/bin/bash
 
+# Replace function
+sed-replace() {
+  find $3 -type f -name "*.*" -not -path "*/.git/*" -not -path "*/vendor/*" -print0 | xargs -0 sed -i "s|$1|$2|g"
+}
+
+INDEX_TITLE="Race Track Sculptures"
+GALLERY_TITLE="Gallery"
+KEYCHAINS_TITLE="Keychains"
+
+#########
+# INDEX #
+#########
+rm index.html
+cat templates/header.html.template \
+  templates/index.html.template \
+  templates/footer.html.template \
+  >> index.html
+sed-replace %TITLE% "$INDEX_TITLE" index.html
+
+#############
+# KEYCHAINS #
+#############
+cat templates/header.html.template \
+  templates/keychains.html.template \
+  templates/footer.html.template \
+  >> keychains.html
+sed-replace %TITLE% "$KEYCHAINS_TITLE" keychains.html
 
 
-#
-# GALLERY GENERATION
-#
+######################
+# GALLERY GENERATION #
+######################
 rm gallery.html
+
+# Insert header
+cat templates/header.html.template >> gallery.html
+
+# Generate template
 cat templates/gallery1.html.template >> gallery.html
 i=1
 for f in assets/images/tracks/*.png; do
@@ -29,6 +61,11 @@ EOL
   fi
 done
 cat templates/gallery2.html.template >> gallery.html
+
+# Insert footer
+cat templates/footer.html.template >> gallery.html
+
 perl -p -i -e "s/\r//g" gallery.html
 
-
+# VARIABLE REPLACEMENTS
+sed-replace %TITLE% "$GALLERY_TITLE" gallery.html
