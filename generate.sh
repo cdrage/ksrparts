@@ -1,9 +1,12 @@
 #!/bin/bash
 
+
+
+#
+# GALLERY GENERATION
+#
 rm gallery.html
-
-cat gallery1.html.template >> gallery.html
-
+cat templates/gallery1.html.template >> gallery.html
 i=1
 for f in assets/images/tracks/*.png; do
   name=$(echo $f | cut -f 1 -d '.')
@@ -25,7 +28,7 @@ EOL
     echo '</div><div class="row trackrow text-center">' >> gallery.html
   fi
 done
-
-cat gallery2.html.template >> gallery.html
-
+cat templates/gallery2.html.template >> gallery.html
 perl -p -i -e "s/\r//g" gallery.html
+
+
