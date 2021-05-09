@@ -8,6 +8,8 @@ sed-replace() {
 INDEX_TITLE="Race Track Sculptures"
 GALLERY_TITLE="Gallery"
 KEYCHAINS_TITLE="Keychains"
+TRACKMAPS_ORDER_LINK="https://forms.gle/Zmidy3HAFgYoa4Vd9"
+LAPTIMERS_ORDER_LINK="https://forms.gle/EfyEvYZq5Va6bMiQ8"
 
 #########
 # INDEX #
@@ -18,26 +20,29 @@ cat templates/header.html.template \
   templates/footer.html.template \
   >> index.html
 sed-replace %TITLE% "$INDEX_TITLE" index.html
+sed-replace %TRACKMAPS_ORDER_LINK% "$TRACKMAPS_ORDER_LINK" index.html
 
 #############
-# KEYCHAINS #
+# LAPTIMERS #
 #############
+rm laptimers.html
 cat templates/header.html.template \
-  templates/keychains.html.template \
+  templates/laptimers.html.template \
   templates/footer.html.template \
-  >> keychains.html
-sed-replace %TITLE% "$KEYCHAINS_TITLE" keychains.html
+  >> laptimers.html
+sed-replace %TITLE% "$INDEX_TITLE" laptimers.html
+sed-replace %LAPTIMERS_ORDER_LINK% "$LAPTIMERS_ORDER_LINK" laptimers.html
 
 ######################
-# GALLERY GENERATION #
+# TRACKMAPS GENERATION #
 ######################
-rm gallery.html
+rm trackmaps.html
 
 # Insert header
-cat templates/header.html.template >> gallery.html
+cat templates/header.html.template >> trackmaps.html
 
 # Generate template
-cat templates/gallery1.html.template >> gallery.html
+cat templates/trackmaps1.html.template >> trackmaps.html
 i=1
 for f in assets/images/tracks/*.png; do
   name=$(echo $f | cut -f 1 -d '.')
@@ -45,7 +50,7 @@ for f in assets/images/tracks/*.png; do
   echo $name
   nospace=$( printf "%s\n" "$f" | sed 's/ /%20/g' )
 
-  cat >> gallery.html << EOL
+  cat >> trackmaps.html << EOL
               <div class="col-md-2">
                 <div class="table-left">
                   <img class="bike-fluid" src="$nospace">
@@ -56,15 +61,15 @@ EOL
   i=$((i+1))
   if (( $i == 7 )); then
     i=1
-    echo '</div><div class="row trackrow text-center">' >> gallery.html
+    echo '</div><div class="row trackrow text-center">' >> trackmaps.html
   fi
 done
-cat templates/gallery2.html.template >> gallery.html
+cat templates/trackmaps2.html.template >> trackmaps.html
 
 # Insert footer
-cat templates/footer.html.template >> gallery.html
+cat templates/footer.html.template >> trackmaps.html
 
-perl -p -i -e "s/\r//g" gallery.html
+perl -p -i -e "s/\r//g" trackmaps.html
 
 # VARIABLE REPLACEMENTS
-sed-replace %TITLE% "$GALLERY_TITLE" gallery.html
+sed-replace %TRACKMAPS_ORDER_LINK% "$TRACKMAPS_ORDER_LINK" trackmaps.html

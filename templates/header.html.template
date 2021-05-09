@@ -37,7 +37,7 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Facebook OpenGraph -->
-    <meta property="og:title" content="KSR Parts 3D Printed Carbon Fiber | Race Track Sculptures">
+    <meta property="og:title" content="KSR Parts 3D Printed Carbon Fiber | Motorcycle Parts & Art">
     <meta property="og:site_name" content="KSR Parts">
     <meta property="og:url" content="https://ksr.parts">
     <meta property="og:description" content="We 3D print race track sculptures for a wide variety of tracks around the world. Printed using premium filament infused with Carbon Fiber.">
@@ -70,9 +70,8 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto navbar-right">
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" data-toggle="collapse" href="#sculpture">Track Sculptures</a></li>
-              <li class="nav-item"><a class="nav-link" href="/gallery">Gallery</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://forms.gle/Zmidy3HAFgYoa4Vd9">Order</a></li>
+              <li class="nav-item"><a class="nav-link" href="/trackmaps">Track Map Sculptures</a></li>
+              <li class="nav-item"><a class="nav-link" href="/laptimers">GPS Lap Timers</a></li>
             </ul>
           </div>
         </div>
