@@ -21,6 +21,7 @@ cat templates/header.html.template \
   >> index.html
 sed-replace %TITLE% "$INDEX_TITLE" index.html
 sed-replace %TRACKMAPS_ORDER_LINK% "$TRACKMAPS_ORDER_LINK" index.html
+sed-replace %LAPTIMERS_ORDER_LINK% "$LAPTIMERS_ORDER_LINK" index.html
 
 #############
 # LAPTIMERS #
