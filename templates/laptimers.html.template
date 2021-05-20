@@ -30,8 +30,6 @@
             • Multiple modes: lapping, drag race, and section
             </p>
             <br>
-            <br>
-            <br>
             <h4>Technical Information</h4>
             <p>
             • 10hz sampling via GPS and GLONASS constellations
@@ -41,15 +39,11 @@
             • 20 hours battery life using a BL-5C lithium battery
             </p>
             <br>
-            <br>
-            <br>
             <h4>Custom 3D Printed Fork Mount</h4> <p>
             • A custom fork mount holder will be created specifically for your bike
             <br>
             • Options to mount the lap timer both above and below the triple tree clamp
             </p>
-            <br>
-            <br>
             <br>
             <h4>Pricing</h4>
             <p>
@@ -118,29 +112,22 @@
 <div id="interface" class="what home-3 what-alt"><!-- Hero Section-->
   <div class="container">
     <div class="flex-intro align-center wow fadeIn">
-      <h2>Simple and intuitive interface</h2>
-      <p>The carefully designed interface makes lap data easy to read</p>
+      <h2>Many happy riders</h2>
+      <p>We've received a lot of positive and exciting feedback from avid riders all over the world.</p>
     </div>
     <div class="row">
 
-      <div class="col-md-4">
+      <div class="col-md-7">
         <div class="hero-img">
-          <img class="img-fluid" src="/assets/images/laptimer/1.jpg" alt="Picture of lap timer info screen">
+          <img class="img-fluid" src="/assets/images/laptimer/customers/honda.jpg" alt="Picture of lap timer on honda">
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-5">
         <div class="hero-img">
-          <img class="img-fluid" src="/assets/images/laptimer/2.jpg" alt="Picture of lap timer info screen">
+          <img class="img-fluid" src="/assets/images/laptimer/customers/r6.jpg" alt="Picture of lap timer on r6">
         </div>
       </div>
-
-      <div class="col-md-4">
-        <div class="hero-img">
-          <img class="img-fluid" src="/assets/images/laptimer/3.jpg" alt="Picture of lap timer info screen">
-        </div>
-      </div>
-
 
     </div>
 
