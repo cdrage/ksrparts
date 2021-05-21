@@ -3453,6 +3453,30 @@ ul#countdown li {
   padding: 0px;
 }
 
+.laptimer-text {
+	padding: 15px;
+	margin-top: 5px;
+}
+
+.laptimer-text h3 {
+	font-size: 21px;
+	font-weight: 500;
+  text-align:center;
+	color: #364655;
+}
+
+#interface .img-fluid {
+  margin-bottom:0px !important;
+}
+
+.laptimer-text p {
+  text-align:center;
+	font-size: 16px;
+	font-weight: 500;
+	color: rgb(129, 129, 152);
+	line-height: 1.6;
+	margin-top: 15px;
+}
 .team-text {
 	padding: 15px;
 	margin-top: 15px;
