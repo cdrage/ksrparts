@@ -70,26 +70,29 @@
     </div>
     <div class="row">
 
-      <div class="col-md-6">
+      <div class="col-md-4">
         <div class="hero-img">
           <img class="img-fluid" src="/assets/images/laptimer/customers/honda.jpg" alt="Picture of lap timer on honda">
           <div class="team-text">
-            <h3>Mounted on a Honda CBR600RR</h3>
-            <p>
-            Ramiro enjoying his above-fork mounted lap timer.
-            </p>
+            <h3>Honda CBR600RR</h3>
           </div>
         </div>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-md-4">
         <div class="hero-img">
-          <img class="img-fluid" src="/assets/images/laptimer/customers/r6.jpg" alt="Picture of lap timer on r6">
+          <img class="img-fluid" src="/assets/images/laptimer/customers/r6.jpg" alt="Picture of lap timer on honda">
           <div class="team-text">
-            <h3>Mounted on a Yamaha R6</h3>
-            <p>
-            A local track day enthusiast enjoying the bright backlit screen.
-            </p>
+            <h3>Yamaha R6</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="hero-img">
+          <img class="img-fluid" src="/assets/images/laptimer/customers/chris.jpg" alt="Picture of lap timer on r6">
+          <div class="team-text">
+            <h3>Kawasaki ZX-6R</h3>
           </div>
         </div>
       </div>
