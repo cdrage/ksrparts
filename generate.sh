@@ -5,11 +5,13 @@ sed-replace() {
   find $3 -type f -name "*.*" -not -path "*/.git/*" -not -path "*/vendor/*" -print0 | xargs -0 sed -i "s|$1|$2|g"
 }
 
-INDEX_TITLE="Race Track Sculptures"
-GALLERY_TITLE="Gallery"
-KEYCHAINS_TITLE="Keychains"
+INDEX_TITLE="Motorcycle Parts and Art"
+LAPTIMERS_TITLE="GPS Lap Timers"
+TRACKMAPS_TITLE="Race track Sculptures"
+LEVERGUARDS_TITLE="Brake and Clutch Lever Guards"
 TRACKMAPS_ORDER_LINK="https://forms.gle/Zmidy3HAFgYoa4Vd9"
 LAPTIMERS_ORDER_LINK="https://forms.gle/EfyEvYZq5Va6bMiQ8"
+LEVERGUARDS_ORDER_LINK="https://forms.gle/EfyEvYZq5Va6bMiQ8"
 
 #########
 # INDEX #
@@ -31,8 +33,19 @@ cat templates/header.html.template \
   templates/laptimers.html.template \
   templates/footer.html.template \
   >> laptimers.html
-sed-replace %TITLE% "$INDEX_TITLE" laptimers.html
+sed-replace %TITLE% "$LAPTIMERS_TITLE" laptimers.html
 sed-replace %LAPTIMERS_ORDER_LINK% "$LAPTIMERS_ORDER_LINK" laptimers.html
+
+################
+# LEVER GUARDS #
+################
+rm leverguards.html
+cat templates/header.html.template \
+  templates/leverguards.html.template \
+  templates/footer.html.template \
+  >> leverguards.html
+sed-replace %TITLE% "$LEVERGUARDS_TITLE" leverguards.html
+sed-replace %LEVERGUARDS_ORDER_LINK% "$LEVERGUARDS_ORDER_LINK" leverguards.html
 
 ######################
 # TRACKMAPS GENERATION #
@@ -74,3 +87,4 @@ perl -p -i -e "s/\r//g" trackmaps.html
 
 # VARIABLE REPLACEMENTS
 sed-replace %TRACKMAPS_ORDER_LINK% "$TRACKMAPS_ORDER_LINK" trackmaps.html
+sed-replace %TITLE% "$TRACKMAPS_TITLE" laptimers.html
