@@ -8,7 +8,7 @@
 
       <div class="col-md-6">
         <div class="hero-img">
-          <img class="img-fluid" src="/assets/images/leverguards/lever.jpg" alt="Picture of lever guard">
+          <img class="img-fluid" src="/assets/images/leverguards/white_lever.jpg" alt="Picture of lever guard">
         </div>
       </div>
 
@@ -42,11 +42,11 @@
             <p>
             • $59 CAD / FREE SHIPPING anywhere in Canada
             <br>
-            • $40 USD / + shipping in USA
+            • $49 USD / + shipping in USA
             </p>
             <br>
-            <a class="btn-action" href="%LAPTIMERS_ORDER_LINK%">Order Now!</a>
-            <a class="btn-success" href="/laptimers#info">View more information</a>
+            <a class="btn-action" href="%LEVERGUARDS_ORDER_LINK%">Order Now!</a>
+            <a class="btn-success" href="/leverguards#info">View more information</a>
           </div>
         </div>
       </div>
@@ -58,34 +58,52 @@
 <div id="interface" class="what home-3"><!-- Hero Section-->
   <div class="container">
     <div class="flex-intro align-center wow fadeIn">
-      <h2>Many happy customers</h2>
-      <p>We've received lots of positive and exciting feedback from avid riders who've used the lever guads</p>
+      <h2>Different colours available</h2>
+      <p>Choose from an assortment of different colours. Don't see a colour you like? Request one!</p>
     </div>
     <div class="row">
-
       <div class="col-md-4">
         <div class="hero-img">
-          <img class="img-fluid" src="/assets/images/laptimer/customers/honda.jpg" alt="Picture of lap timer on honda">
+          <img class="img-fluid" src="/assets/images/leverguards/white.jpg">
           <div class="team-text">
-            <h3>Honda CBR600RR</h3>
+            <h3>White</h3>
           </div>
         </div>
       </div>
 
       <div class="col-md-4">
         <div class="hero-img">
-          <img class="img-fluid" src="/assets/images/laptimer/customers/r6.jpg" alt="Picture of lap timer on honda">
+          <img class="img-fluid" src="/assets/images/leverguards/blue.jpg">
           <div class="team-text">
-            <h3>Yamaha R6</h3>
+            <h3>Blue</h3>
           </div>
         </div>
       </div>
 
       <div class="col-md-4">
         <div class="hero-img">
-          <img class="img-fluid" src="/assets/images/laptimer/customers/chris.jpg" alt="Picture of lap timer on r6">
+          <img class="img-fluid" src="/assets/images/leverguards/black.jpg">
           <div class="team-text">
-            <h3>Kawasaki ZX-6R</h3>
+            <h3>Black</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="hero-img">
+          <img class="img-fluid" src="/assets/images/leverguards/orange.jpg">
+          <div class="team-text">
+            <h3>Orange</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="hero-img">
+          <img class="img-fluid" src="/assets/images/leverguards/green.jpg">
+          <div class="team-text">
+            <h3>Green</h3>
           </div>
         </div>
       </div>
@@ -95,17 +113,18 @@
   </div>
 </div><!-- Hero End -->
 
+
 <div id="info" class="what home-3 what-alt">
   <div class="container">
     <div class="flex-intro align-center wow fadeIn">
-      <h2>Stiff and durable material</h2>
-      <p>After providing your fork size, a fully custom fork mount is created just for your bike.
+      <h2>Unique design</h2>
+      <p>Our two-piece design, durable lever guards using only premium materials will prevent your bike from accidental brake engagement.
       </p>
     </div>
     <div class="row">
       <!-- team member -->
       <div class="col-sm-3">
-        <div class="team-image text-center"><img src="assets/images/laptimer/holder.jpg" class="rounded-circle z-depth-1 img-fluid" alt="Shannonville Track Sculptures"></div>
+        <div class="team-image text-center"><img src="assets/images/leverguards/prusa.jpg" class="rounded-circle z-depth-1 img-fluid"></div>
         <div class="team-text">
           <h3>Unique two-piece design</h3>
           <p>
@@ -114,7 +133,7 @@
         </div>
       </div>
       <div class="col-sm-3">
-        <div class="team-image text-center"><img src="assets/images/laptimer/customers/ramiro.jpg" class="rounded-circle z-depth-1 img-fluid" alt="Guy riding motorcycle"></div>
+        <div class="team-image text-center"><img src="assets/images/leverguards/clipon.jpg" class="rounded-circle z-depth-1 img-fluid"></div>
         <div class="team-text">
           <h3>Slide onto your clip-on</h3>
           <p>
@@ -132,7 +151,7 @@
         </div>
       </div>
       <div class="col-sm-3">
-        <div class="team-image text-center"><img src="assets/images/satellite.jpg" class="rounded-circle z-depth-1 img-fluid" alt="Satellite"></div>
+        <div class="team-image text-center"><img src="assets/images/leverguards/touching.jpg" class="rounded-circle z-depth-1 img-fluid" alt="Satellite"></div>
         <div class="team-text">
           <h3>Prevent accidental front brake engagement</h3>
           <p>
@@ -158,6 +177,8 @@
         <div class="hero-img">
           <img class="img-fluid" src="/assets/images/leverguards/render.png" alt="render">
         </div>
+            <a class="btn-action" href="%LEVERGUARDS_ORDER_LINK%">Order Now!</a>
+            <a class="btn-success" href="/leverguards#info">View more information</a>
       </div>
 
     </div>

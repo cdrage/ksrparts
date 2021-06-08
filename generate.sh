@@ -11,7 +11,7 @@ TRACKMAPS_TITLE="Race track Sculptures"
 LEVERGUARDS_TITLE="Brake and Clutch Lever Guards"
 TRACKMAPS_ORDER_LINK="https://forms.gle/Zmidy3HAFgYoa4Vd9"
 LAPTIMERS_ORDER_LINK="https://forms.gle/EfyEvYZq5Va6bMiQ8"
-LEVERGUARDS_ORDER_LINK="https://forms.gle/EfyEvYZq5Va6bMiQ8"
+LEVERGUARDS_ORDER_LINK="https://forms.gle/NfcwoFzS9zZkn2Yb7"
 
 #########
 # INDEX #
