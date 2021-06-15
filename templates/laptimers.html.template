@@ -166,10 +166,13 @@
             1. Turn on the GPS and wait 60 seconds for GPS signal
             <br>
             <br>
-            2. Press and hold ▲ for 2 seconds to set the start/end zone. This is saved into memory. Skip this step if you've already set the start point!
+            2. Press and hold ▲ for 2 seconds to set the START zone. This is saved into memory.
             <br>
             <br>
-            3. Press ⏎ and start lapping
+            3. Press and hold ▼ for 2 seconds to set the END zone. This is saved into memory.
+            <br>
+            <br>
+            4. Press ⏎ and start lapping
             </p>
             <br>
             <a class="btn-action" href="%LAPTIMERS_ORDER_LINK%">Order Now!</a>
@@ -247,10 +250,13 @@
               1. Turn on the GPS and wait 60 seconds for GPS signal
               <br>
               <br>
-              2. Press and hold ▲ for 2 seconds to set the start/end zone. This is saved into memory. Skip this step if you've already set the start point!
+              2. Press and hold ▲ for 2 seconds to set the START zone. This is saved into memory.
               <br>
               <br>
-              3. Press ⏎ and start lapping
+              3. Press and hold ▼ for 2 seconds to set the END zone. This is saved into memory.
+              <br>
+              <br>
+              4. Press ⏎ and start lapping
               </p>
             </div>
           </div>
