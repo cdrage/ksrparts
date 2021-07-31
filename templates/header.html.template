@@ -72,7 +72,6 @@
             <ul class="navbar-nav ml-auto navbar-right">
               <li class="nav-item"><a class="nav-link" href="/trackmaps">Track Map Sculptures</a></li>
               <li class="nav-item"><a class="nav-link" href="/laptimers">GPS Lap Timers</a></li>
-              <li class="nav-item"><a class="nav-link" href="/leverguards">Lever Guards</a></li>
             </ul>
           </div>
         </div>
