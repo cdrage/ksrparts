@@ -95,7 +95,7 @@
         <div class="hero-img">
           <img class="img-fluid" src="/assets/images/laptimer/customers/chris.jpg" alt="Picture of lap timer on zx6r">
           <div class="team-text">
-            <h3>Kawasaki ZX6R</h3>
+            <h3>Kawasaki Ninja ZX-6R</h3>
           </div>
         </div>
       </div>
@@ -104,16 +104,16 @@
         <div class="hero-img">
           <img class="img-fluid" src="/assets/images/laptimer/customers/r6.jpg" alt="Picture of lap timer on r6">
           <div class="team-text">
-            <h3>Yamaha R6</h3>
+            <h3>Yamaha YZF-R6</h3>
           </div>
         </div>
       </div>
 
       <div class="col-md-4">
         <div class="hero-img">
-          <img class="img-fluid" src="/assets/images/laptimer/customers/ninja.jpg" alt="Picture of lap timer on ninja 650R">
+          <img class="img-fluid" src="/assets/images/laptimer/customers/ninja.jpg" alt="Picture of lap timer on ninja 250R">
           <div class="team-text">
-            <h3>Kawasaki 650R</h3>
+            <h3>Kawasaki Ninja 250R</h3>
           </div>
         </div>
       </div>
