@@ -69,6 +69,19 @@
       <p>We've received lots of positive and exciting feedback from avid riders all over the world.</p>
     </div>
     <div class="row">
+      <div class="col-md-offset-3 mx-auto col-md-6">
+        <div class="hero-img loop-video">
+          <video class="embed-responsive drone-video" autoplay loop muted>
+            <source src="assets/video/timer.webm" type="video/webm" />
+          </video>
+          <div class="team-text">
+            <h3>Yamaha YZF-R6 SOAR Racer</h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row">
       <div class="col-md-6">
         <div class="hero-img">
           <img class="img-fluid" src="/assets/images/laptimer/customers/ohvale.jpg" alt="Picture of lap timer on ohvale">

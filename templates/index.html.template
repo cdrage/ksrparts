@@ -37,65 +37,7 @@
     </div>
   </div>
 </div>
-
-<div id="trackmaps" class="what home-3"><!-- Hero Section-->
-  <div class="container">
-    <div class="flex-intro align-center wow fadeIn">
-      <h2>Track Map Sculptures</h2>
-      <p>Hundreds of track sculptures have been shipped and hung on walls!</p>
-    </div>
-    <div class="row">
-
-      <div class="col-md-5">
-        <div class="hero-img">
-          <img class="img-fluid" src="/assets/images/customers/office.jpg" alt="Picture of tracks">
-        </div>
-      </div>
-
-      <div class="col-md-7">
-        <div class="hero-content wow fadeIn">
-          <div class="hero-content-inner">
-            <h4>Hang it on your</h4>
-            <p>
-            • Office wall
-            <br>
-            • Garage
-            <br>
-            • Pit area
-            <br>
-            • Enclosed trailer
-            <br>
-            • Mancave
-            </p>
-            <br>
-            <h4>Show off what tracks you've been to</h4> <p>
-            • Each track has been carefully designed to match the exact layout you've ridden
-            <br>
-            • Choose from different track layouts and variations
-            <br>
-            • Using premium PETG infused with Carbon Fiber to give a unique look
-            <br>
-            • Over 50+ different tracks!
-            </p>
-            <br>
-            <h4>Pricing</h4> <p>
-            • $20 CAD / FREE SHIPPING over $60 anywhere in Canada
-            <br>
-            • $18 USD / FREE SHIPPING over $54 anywhere in USA
-            </p>
-            <br>
-            <a class="btn-action" href="%TRACKMAPS_ORDER_LINK%">Order Now</a>
-            <a class="btn-success" href="/trackmaps">View more information</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-</div><!-- Hero End -->
-
-<div id="laptimer" class="what home-3 what-alt"><!-- Hero Section-->
+<div id="laptimer" class="what home-3"><!-- Hero Section-->
   <div class="container">
     <div class="flex-intro align-center wow fadeIn">
       <h2>GPS Lap Timer with Custom Fork Mount</h2>
@@ -160,3 +102,61 @@
 
   </div>
 </div><!-- Hero End -->
+
+<div id="trackmaps" class="what home-3 what-alt"><!-- Hero Section-->
+  <div class="container">
+    <div class="flex-intro align-center wow fadeIn">
+      <h2>Track Map Sculptures</h2>
+      <p>Hundreds of track sculptures have been shipped and hung on walls!</p>
+    </div>
+    <div class="row">
+
+      <div class="col-md-5">
+        <div class="hero-img">
+          <img class="img-fluid" src="/assets/images/customers/office.jpg" alt="Picture of tracks">
+        </div>
+      </div>
+
+      <div class="col-md-7">
+        <div class="hero-content wow fadeIn">
+          <div class="hero-content-inner">
+            <h4>Hang it on your</h4>
+            <p>
+            • Office wall
+            <br>
+            • Garage
+            <br>
+            • Pit area
+            <br>
+            • Enclosed trailer
+            <br>
+            • Mancave
+            </p>
+            <br>
+            <h4>Show off what tracks you've been to</h4> <p>
+            • Each track has been carefully designed to match the exact layout you've ridden
+            <br>
+            • Choose from different track layouts and variations
+            <br>
+            • Using premium PETG infused with Carbon Fiber to give a unique look
+            <br>
+            • Over 50+ different tracks!
+            </p>
+            <br>
+            <h4>Pricing</h4> <p>
+            • $20 CAD / FREE SHIPPING over $60 anywhere in Canada
+            <br>
+            • $18 USD / FREE SHIPPING over $54 anywhere in USA
+            </p>
+            <br>
+            <a class="btn-action" href="%TRACKMAPS_ORDER_LINK%">Order Now</a>
+            <a class="btn-success" href="/trackmaps">View more information</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div><!-- Hero End -->
+
