@@ -17,8 +17,9 @@
       <div class="col-md-7">
         <div class="hero-img loop-video">
           <div class="hero-content">
-            <h4>View the printer LIVE!</h4>
+            <h4>Our GPS lap timer in use by a SOAR racer.</h4>
           </div>
+          <!--
           <iframe
             class="twitchiframe"
             src="https://player.twitch.tv/?channel=ksrparts&parent=ksr.parts"
@@ -28,10 +29,11 @@
             scrolling="no"
             allowfullscreen="true">
           </iframe>
+          -->
 
-          <!--<video class="embed-responsive drone-video" autoplay loop muted>
-            <source src="assets/video/corner.mp4" type="video/mp4" />
-            </video>-->
+          <video class="embed-responsive drone-video" autoplay loop muted>
+            <source src="assets/video/timer.webm" type="video/webm" />
+          </video>
         </div>
       </div>
     </div>
