@@ -37,17 +37,6 @@ cat templates/header.html.template \
 sed-replace %TITLE% "$LAPTIMERS_TITLE" laptimers.html
 sed-replace %LAPTIMERS_ORDER_LINK% "$LAPTIMERS_ORDER_LINK" laptimers.html
 
-################
-# LEVER GUARDS #
-################
-rm leverguards.html
-cat templates/header.html.template \
-  templates/leverguards.html.template \
-  templates/footer.html.template \
-  >> leverguards.html
-sed-replace %TITLE% "$LEVERGUARDS_TITLE" leverguards.html
-sed-replace %LEVERGUARDS_ORDER_LINK% "$LEVERGUARDS_ORDER_LINK" leverguards.html
-
 ######################
 # TRACKMAPS GENERATION #
 ######################
@@ -88,4 +77,4 @@ perl -p -i -e "s/\r//g" trackmaps.html
 
 # VARIABLE REPLACEMENTS
 sed-replace %TRACKMAPS_ORDER_LINK% "$TRACKMAPS_ORDER_LINK" trackmaps.html
-sed-replace %TITLE% "$TRACKMAPS_TITLE" laptimers.html
+sed-replace %TITLE% "$TRACKMAPS_TITLE" trackmaps.html
