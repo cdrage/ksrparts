@@ -32,7 +32,7 @@
           -->
 
           <video class="embed-responsive drone-video" autoplay loop muted>
-            <source src="assets/video/timer.webm" type="video/webm" />
+            <source src="assets/video/timer.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
@@ -50,7 +50,7 @@
       <div class="col-md-4">
         <div class="hero-img loop-video">
           <video class="embed-responsive drone-video" autoplay loop muted>
-            <source src="assets/video/gps.webm" type="video/webm" />
+            <source src="assets/video/gps.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
