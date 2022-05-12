@@ -2,7 +2,7 @@
 
 # Replace function
 sed-replace() {
-  find $3 -type f -name "*.*" -not -path "*/.git/*" -not -path "*/vendor/*" -print0 | xargs -0 sed -i "s|$1|$2|g"
+  find $3 -type f -name "*.*" -not -path "*/.git/*" -not -path "*/vendor/*" -print0 | xargs -0 sed -i "" "s,$1,$2,g"
 }
 
 INDEX_TITLE="Motorcycle Parts and Art"
