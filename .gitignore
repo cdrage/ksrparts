@@ -4,3 +4,4 @@ bin
 .jekyll-cache/
 
 private/
+.DS_Store
