@@ -5,3 +5,4 @@ bin
 
 private/
 .DS_Store
+*.stl
